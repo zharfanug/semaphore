@@ -1,6 +1,7 @@
 ---
 - name: Gather system info
   hosts: "all"
+  connection: local
 
   collections:
     - paloaltonetworks.panos
