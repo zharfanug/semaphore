@@ -1,0 +1,4 @@
+# requirements.yml
+collections:
+  - name: paloaltonetworks.panos
+    version: "2.20.0"
