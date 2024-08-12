@@ -9,7 +9,7 @@
   tasks:
     - name: Gather facts for device
       paloaltonetworks.panos.panos_facts:
-        provider: "{{ provider }}"
+        provider: "{{ hostvars[inventory_hostname]['provider'] }}"
 
     - name: Display information
       ansible.builtin.debug:
